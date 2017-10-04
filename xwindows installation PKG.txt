@@ -1,0 +1,1 @@
+yum groupinstall "X window System" Desktop --disablerepo=* --enablerepo=client

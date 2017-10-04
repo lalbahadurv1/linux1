@@ -1,0 +1,167 @@
+mv p10404530_112030_Linux-x86-64_3of7.zip /u02
+  935  cd /u02/
+  936  ls -l
+  937  chown grid:oinstall p10404530_112030_Linux-x86-64_3of7.zip
+  938  yum repolist
+  939  xclock
+  940  id
+  941  export DISPLAY=localhost:0.0
+  942  env | grep -i dis
+  943  xclock
+  944  which xlock
+  945  cd /usr/bin
+  946  find / -name xclock 2>/dev/null
+  947  uname -a
+  948  yum groupinstall "X Window System"
+  949  yum -y groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts"
+  950  ls
+  951  mount -o loop rhel-server-6.6-x86_64-dvd.iso /mnt
+  952  cd .mnt
+  953  cd /mnt
+  954  ls
+  955  cd
+  956  cd /mnt
+  957  ls
+  958  cd Packages/
+  959  ls
+  960  cd
+  961  cd /mnt/Packages/
+  962  rpm -ivh createrepo-0.9.9-22.el6.noarch.rpm
+  963  rpm -ivh python-deltarpm
+  964  rpm -ivh python-deltarpm-3.5-0.5.20090913git.el6.x86_64.rpm
+  965  rpm -ivh deltarpm
+  966  rpm -ivh deltarpm-3.5-0.5.20090913git.el6.x86_64.rpm
+  967  rpm -ivh python-deltarpm-3.5-0.5.20090913git.el6.x86_64
+  968  df -h
+  969  cd /mnt/
+  970  ls -la
+  971  cd /etc/yum.repos.d/
+  972  ls -la
+  973  vi mnt.repo
+  974  cp  -rpv client.repo mnt.repo
+  975  vi mnt.repo
+  976  yum repolist
+  977  yum repolist all
+  978  yum list all --disablerepo=* --enablerepo=mnt
+  979  yum grouplist all
+  980  yum grouplist
+  981  yum grouplist --
+  982  bash
+  983  m grouplist
+  984  yum grouplist --
+  985  startx
+  986  xclock
+  987  cd /etc/yum.repos.d/
+  988  ls
+  989  more mnt.repo
+  990  cd
+  991  ls
+  992  scp rhel-server-6.6-x86_64-dvd.iso root@10.130.237.63:/
+  993  df -h
+  994  history
+  995  clear
+  996  ssh -X 10.130.237.63
+
+[root@SRDCB1073PGBPM ~]# history |less
+  936  ls -l
+  937  chown grid:oinstall p10404530_112030_Linux-x86-64_3of7.zip
+  938  yum repolist
+  939  xclock
+  940  id
+  941  export DISPLAY=localhost:0.0
+  942  env | grep -i dis
+  943  xclock
+  944  which xlock
+  945  cd /usr/bin
+  946  find / -name xclock 2>/dev/null
+  947  uname -a
+  948  yum groupinstall "X Window System"
+  949  yum -y groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts"
+  950  ls
+  951  mount -o loop rhel-server-6.6-x86_64-dvd.iso /mnt
+  952  cd .mnt
+  953  cd /mnt
+  954  ls
+  955  cd
+  956  cd /mnt
+  957  ls
+  958  cd Packages/
+  959  ls
+  960  cd
+  961  cd /mnt/Packages/
+  962  rpm -ivh createrepo-0.9.9-22.el6.noarch.rpm
+  963  rpm -ivh python-deltarpm
+  964  rpm -ivh python-deltarpm-3.5-0.5.20090913git.el6.x86_64.rpm
+  965  rpm -ivh deltarpm
+  966  rpm -ivh deltarpm-3.5-0.5.20090913git.el6.x86_64.rpm
+  967  rpm -ivh python-deltarpm-3.5-0.5.20090913git.el6.x86_64
+  968  df -h
+  969  cd /mnt/
+  970  ls -la
+  971  cd /etc/yum.repos.d/
+  972  ls -la
+  973  vi mnt.repo
+  974  cp  -rpv client.repo mnt.repo
+  975  vi mnt.repo
+  976  yum repolist
+  977  yum repolist all
+  978  yum list all --disablerepo=* --enablerepo=mnt
+  979  yum grouplist all
+  980  yum grouplist
+  981  yum grouplist --
+  982  bash
+  983  m grouplist
+  984  yum grouplist --
+  985  startx
+  986  xclock
+  987  cd /etc/yum.repos.d/
+  988  ls
+  989  more mnt.repo
+  990  cd
+  991  ls
+  992  scp rhel-server-6.6-x86_64-dvd.iso root@10.130.237.63:/
+  993  df -h
+  994  history
+
+
+
+
+/................................................
+
+repo file 
+
+[mnt]
+name="Local MNT"
+#baseurl=http://10.130.240.119/repo/
+baseurl=file:///mnt
+gpgcheck=0
+enabled=0
+~
+######################################################
+
+LIVE UPDATE
+
+[client] 
+name=yum client 
+baseurl=ftp://10.128.26.162/pub/repo/ 
+enable=1 
+gpgcheck=0
+
+#######################################################
+
+
+
+
+[rhel-6-server-rpms]
+name = Red Hat Enterprise Linux 6 Server (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel/server/6/$releasever/$basearch/os
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/2234213651185391970-key.pem
+sslclientcert = /etc/pki/entitlement/2234213651185391970.pem
+metadata_expire = 86400
+ui_repoid_vars = releasever basearch
+

@@ -1,0 +1,1000 @@
+ip r l
+cd
+exir
+exit
+w
+ip r l
+netstat -anp
+xit
+exit
+ll
+mkdir sfha
+tar -xvf deploy_sfha.tar /root/sfha/
+tar -tvf deploy_sfha.tar 
+tar -xvf deploy_sfha.tar 
+ll
+cd sfha/
+ll
+rm -r sfha
+rm -r /root/sfha
+ll
+cd /root/deploy_sfha
+ll
+cd matrix
+ll
+ll | less
+!
+cd 
+ll | less
+cd /root/deploy_sfha
+ll
+cd matrix/
+ll
+ll | less
+cd ..
+df -h
+mv /root/deploy_sfha /opt
+cd /opt/
+ll
+cd rh
+ll
+cd ..
+./deploy_sfha/
+ clear
+grep x /root/anaconda-ks.cfg 
+exit
+elinks http://google.co.in
+exit
+tailf /var/log/messages 
+cat /etc/resolv.conf
+vi /etc/resolv.conf
+elinks http://symantec.com
+elinks http://www.symantec.com
+ping www.google.com
+ifconfig 
+cd /opt/VRTS/install/
+ls
+cat /etc/redhat-release 
+cd /opt/
+ls
+df -kh
+cp /root/VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz .
+tar -zxvf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz 
+ls
+cd dvd1-redhatlinux/
+ls
+cd rhel6_x86_64/
+ls
+cd rpms/
+ls
+rpm -ivh VRTSperl-5.16.1.26-RHEL6.x86_64.rpm 
+rpm -ivh VRTSsfcpi62-6.2.0.000-GENERIC.noarch.rpm 
+cd /opt/
+ls
+ls -alrth
+rh
+cd rh/
+ls
+cd ..
+ls -alrth
+vi /etc/hosts
+ll
+cd VRTS
+ll
+cd repository/
+ll
+cd ga
+ll
+cd images/
+ll
+cd 
+cd-
+cd- -
+cd -
+cd ..
+ll
+cd hotfix/
+ll
+cd
+cd -
+cd .
+cd ..
+cd .
+cd ..
+ll
+cd install/
+ll
+cd logs/
+ll
+vi exitfile-UXRT62-201505141258ArV 
+cd deploy_sfha-2015051412
+cd deploy_sfha-201505141214ucl/
+ll
+vi deploy_sfha-201505141214ucl.log0 
+cd ..
+ll
+rm deploy_sfha.tar 
+ll
+cd /opt/
+ls
+cat /etc/hosts
+mount -o loop /root/rhel-server-6.5-x86_64-dvd.iso /mnt/
+cd /mnt/
+cd Packages/
+ls
+rpm -ivh lynx-2.8.6-27.el6.x86_64.rpm 
+lync http://www.symantec.com
+lynx http://www.symantec.com
+/etc/init.d/iptables stop
+/etc/init.d/ip6tables stop
+lynx http://www.symantec.com
+nslookup www.symantec.com
+lynx http://www.symantec.com
+traceroute www.symantec.com
+lynx http://www.symantec.com
+rpm -ivh telnet-0.17-47.el6_3.1.x86_64.rpm 
+telnet 23.52.78.118 80
+lynx http://www.symantec.com
+cd /opt/VRTS/install/
+ls
+./deploy_sfha 
+./deploy_sfha -repository /opt/VRTS/repository
+./deploy_sfha 
+pwd
+./deploy_sfha 
+ping 10
+ping 
+root@10.130.239.26's password:
+ping RPSLDEPLOY02
+vi /etc/hosts
+ip r l
+vi /etc/hosts
+cat /etc/hosts
+vi /etc/hosts
+ping RPSLDEPLOY03
+ip r l
+ip  l
+ip r l
+scp rhel-server-6.5-x86_64-dvd.iso root@10.130.239.27:/root
+cd /opt/VRTS/
+ll
+cd repository/
+ll
+du -sh
+cd
+exit
+ll
+cd /opt
+ll
+vf VRTS
+cd  VRTS
+ll
+cd repository/
+ll
+cd patch/
+ll
+cd images/
+ll
+cd sfha-rhel6_x86_64-MR-6.2.1/
+ll
+cd rhel6_x86_64/
+ll
+cd
+ssh 10.130.239.26
+ll
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd
+ip r l
+lspci grep VGA
+exit
+cat /etc/hosts
+vi /etc/hosts
+cd /root/
+ls
+scp rhel-server-6.5-x86_64-dvd.iso root@10.130.239.26:/root
+ll
+ll -alrth
+ll -alsrth
+ll -als
+ll -alsr
+ll -alsrt
+ll -alsrth
+du -ah
+du -ah /opt/
+du -c
+du -ch |grep total
+df -h |grep /dev/sda1 |cut -c 41-43
+du -csh
+vi /etc/yum.repos.d/
+cd /etc/yum.repos.d/
+ll
+cd
+ip r l
+exit
+vi /etc/hosts
+ll
+scp rhel-server-6.5-x86_64-dvd.iso root@10.128.23.157:/media
+ll
+history
+history |less
+vi /etc/hosts
+cd /opt/VRTS/install/
+ls
+./deploy_sfha
+ll
+vi showversion 
+cd ..
+ll
+du -sh repository/
+cd -
+vi /etc/hosts
+cat /etc/hosts
+tailf /var/tmp/installmr-201505151711kYp
+cd /var/tmp/installmr-201505151711kYp/
+ls -alrth
+tailf installmr-201505151711kYp.log1
+cat /etc/hosts
+vi /etc/hosts
+cd /opt/VRTS/install/
+ls
+./deploy_sfha
+cd /opt/VRTS
+ll
+cd install/
+l
+ll
+./deploy_sfha 
+vi etc/hosts
+vi /etc/hosts
+./deploy_sfha 
+vi /etc/hosts
+ping 10.130.237.76
+ping SRDCB1087PGDBM
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+vi /etc/hosts
+exit
+vi /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+vi /etc/hosts
+./deploy_sfha 
+vi /etc/hosts
+ip r l
+q
+./deploy_sfha 
+exit
+vi /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+exit
+ssh 10.130.237.43
+cd /opt/VRTS/install/
+./deploy_sfha 
+ssh root@10.130.237.43
+./deploy_sfha 
+/etc/init.d/sshd restart
+ssh SRDCB1090PG3IT
+cat /etc/hosts | grep SRDCB1090PG3IT
+ping 10.130.237.43
+ping SRDCB1090PG3IT
+ifconfig 
+ssh 10.130.237.43
+ssh 10.130.237.76
+vi /etc/ssh/sshd_config 
+/etc/init.d/sshd restart
+ssh 10.130.237.76
+cd /opt/VRTS
+ls
+cd repository/
+ls
+cd ..
+cd install/
+ls
+cat /etc/hosts
+./deploy_sfha 
+ssh sssssssawrwewtweterrterrterterdrdrerterterrterryeryery
+cls
+clear
+ping 10.130.239.26
+ping 10.130.239.27
+ping 10.130.239.25
+ssh SRDCB1087PGDBM
+init 6
+cat /etc/hosts
+ssh SRDCB1087PGDBM
+cd /opt/VRTS/install/
+./deploy_sfha 
+setup
+ifconfig
+ping 10.130.239.1
+iptables -l
+iptables -h
+iptables -L
+service iptables statu
+/etc/init.d/iptables stop
+ifconfig
+/etc/init.d/iptables start
+exit
+ssh SRDCB1087PGDBM
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+ssh 
+ssh SRDCB1085PGREP
+exit
+ssh SRDCB1085PGREP
+exit
+vi /etc/ssh/ssh_config 
+ssh SRDCB1087PGDBM
+cd /opt/VRTS/install/
+./deploy_sfha 
+vi /etc/ssh/ssh_config 
+ssh SRDCB1087PGDBM
+exit
+cd /opt/VRTS/install/
+./deploy_sfha 
+ssh 10.130.237.74
+ssh SRDCB1085PGREP
+./deploy_sfha 
+exit
+ls
+cd /opt/
+ls
+cd VRTSperl
+ls
+cd bin/
+ls
+./instmodsh 
+cd
+cd /opt/VRTS/install/
+./deploy_sfha 
+bash
+vi /etc/hosts
+vi /opt/VRTS/install/
+cd /opt/VRTS/install/
+./deploy_sfha 
+exit
+vi /etc/hosts
+ip r l
+exit
+cat /etc/host
+cat /etc/hosts
+vi /etc/hosts
+cd /opt/VRTS/install/
+ls
+./deploy_sfha 
+exi
+exit
+cd /opt/VRTS/install/
+ls
+./deploy_sfha 
+vi /etc/hosts
+./deploy_sfha 
+exit
+vi /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+vi /etc/hosts
+./deploy_sfha 
+cat /etc/hosts
+./deploy_sfha 
+
+vim ./deploy_sfha 
+vim /etc/hosts
+./deploy_sfha 
+cat /etc/hosts
+ssh 10.130.237.33
+cat /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+vi /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+/opt/VRTS/install/logs/installVRTSvxfs620P100-201505231237WCK
+cd /opt/VRTS/install/logs/installVRTSvxfs620P100-201505231237WCK
+ll
+vi installVRTSvxfs620P100-201505231237WCK.log0
+cd 
+yum list 
+yum list | grep -i libstdc++-4.4.7-11.el6.i686 
+yum list | grep -i libstdc++-4.4.
+yum install libstdc++-4.4.7-11.el6.i686 
+cd /etc/yum.repos.d/
+ll
+ip r l
+cd
+cd /opt/VRTS/install/
+ip r l
+./deploy_sfha 
+exit
+cd /opt/VRTS/install/
+./deploy_sfha 
+exit
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+cat /etc/hosts
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd /opt/VRTS/install/
+./deploy_sfha 
+/opt/VRTS/install/deploy_sfha
+ifconfig
+/opt/VRTS/install/deploy_sfha
+exit
+cat /etc/hosts
+top
+tail -f /var/tmp/installmr-201505232006etx
+cat /var/tmp/installmr-201505232006etx
+cd /var/tmp/installmr-201505232006etx
+ls
+ls -ltr
+tail -f vpvd.Linux.SRDCB1076PGMDM
+ls -ltr
+cat installmr-201505232006etx.log0
+ls -ltr
+cd /opt/VRTS/install/
+./deploy_sfha 
+exit
+cat /etc/hosts
+exit
+cd /opt/VRTS/
+cd install/
+./deploy_sfha 
+cat /etc/hosts
+cd /OPT
+cd /opt/
+cd VRTS
+ll
+cd repository/
+ll
+cd patch/
+ll
+cd targz/
+ll
+tar -xvzf sfha-rhel6_x86_64-5.1SP1PR2RP4-patches.tar.gz 
+ll
+cd rhel6_x86_64/
+ll
+cd rpms/
+ll
+cd ..
+cd installrp 
+ll
+./installrp 
+./installrp
+cd //
+cd
+cd /opt/
+cd VRTS
+cd repository/
+ll
+cd ga/
+ll
+cd targz/
+ll
+tar -xvzf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz 
+ll
+cd dvd1-redhatlinux/
+ll
+find / -name sfha-rhel6_x86_64-6.0
+cd symantec_ha_console/
+ll
+cd Pkgs/
+ll
+cd Common/
+ll
+cd ..
+ll
+cd rhel6_x86_64/
+ll
+cd rpms/
+ll
+cd ..
+ll
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd  ./.
+cd  ..
+ll
+cd install/
+ll
+cd  ..
+cd repository/
+ll
+cd patch/
+ll
+cd images/
+ll
+cd sfha-rhel6_x86_64-MR-6.2.1/
+ll
+cd rhel6_x86_64/
+ll
+cd rpms/
+ll
+cd
+/opt/VRTS/install/deploy_sfha
+cat /etc/hosts
+exit
+cat /etc/hosts
+vi /etc/hosts
+ping SRDCB1093PGORA
+ping SRDCB1092PGORA
+host -a idc1ntp.idc.ril.com
+host -a idc1ntp1.idc.ril.com
+cd /opt/VRTS/install/
+ll
+./deploy_sfha 
+cat /etc/hosts
+cat /etc/ntp.conf 
+grep HWADDR ifcfg-eth*
+cd /etc/sysconfig/network-scripts/
+grep HWADDR ifcfg-eth*
+ll
+grep HWADDR ifcfg-eth*
+lspci | egrep -i --color 'network|ethernet'
+lshw -class network
+lshw
+ip link show 
+ip a
+cat /proc/net/dev
+cd /opt/
+LL
+ll
+ethtool eth0
+ethtool eth*
+ethtool et*
+mii-tool
+mii-tool -B
+mii-tool -V
+mii-tool -V eth0
+ethtool -i eth0
+ethtool  eth0
+dmicode
+df -h
+ll
+cd /media/
+ll
+yum list
+yum list | grep dmicode 
+yum list | grep lshw
+yum install dmicode*
+cd
+vi /etc/yum.repos.d/client.repo
+yum clean all
+yum repo list
+yum  list
+yum  list aoo
+yum  list all
+yum install dmicode
+ll
+ll -h
+mount -o loop rhel-server-6.5-x86_64-dvd.iso /media
+df -h
+vi /etc/yum.repos.d/client.repo
+cd /media/
+ll
+cd Packages/
+ll
+ls | grep dmicode
+ls dmicode*
+
+vi /etc/yum.repos.d/client.repo
+yum clean all
+yum repolist
+yum list all
+yum install dmicode*
+lspci -vvv
+lspci -vvv | grep ethernet
+lspci -vvv | grep Ethernet
+cd /etc/udev/rules.d/
+grep eth0 70-persistent-net.rules 
+host -a idc1ntp.idc.ril.com
+CD
+cd /opt/
+cd VRTS/install/
+ll
+vi showversion 
+chfn
+chage 
+chage -n
+chage -l
+chage -n
+chage root
+ll
+man break
+grep 'server' /etc/ntp.conf 
+ll
+cd /opt/
+ll
+cd VRTS/install/
+pwd
+./deploy_sfha 
+cd
+man sed
+vi /etc/ssh/sshd_config 
+udevadm info -a -p /sys/class/net/eth0/
+rpm -qi | grep vnc
+rpm -qa | grep vnc
+yum install vnc*
+yum install vncserver-*
+ll
+yum list
+yum search vnc
+df -kh
+cd /media
+ll
+cd Server/
+ll
+cd ../
+ll
+cd Packages/
+ll
+ll  |grep paact
+ll  |grep pa*
+rpm -ivh pacct*
+rpm -ivh pact
+sa
+ll sa*
+cd
+ll
+man cp >abc.txt
+vi abc.txt 
+clear
+cd /opt/VRTS
+ls -la
+cd install/
+ll
+tar -tvpf deploy_sfha.tar |less
+cd
+ls -lrth
+tar -ztvpf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz |less
+clear
+du -sch VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz 
+less /etc/hosts
+cleaer
+clear
+cat /etc/redhat-release 
+vi /etc/yum.repos.d/client.repo 
+cd /opt/VRTS/install/
+ll
+cd bin/
+ll
+cd UXRT62/
+ll
+cd
+cd /opt/VRTS/install/
+./deploy_sfha 
+cd
+yum install screen*
+yum install screen
+yum install screen-*
+yum list
+yum search screen
+rpm -qa | grep screen
+yum install screen
+vi /etc/yum.repos.d/client.repo 
+yum update | grep screen
+yum update 
+yum list all
+vi /etc/yum.repos.d/client.repo 
+yum list
+yum install screen
+vi /etc/yum.repos.d/client.repo 
+yum list
+yum list | grep screen
+cd /opt/
+ll
+ip r l
+cat /etc/redhat-release 
+free -m
+ip r l
+hostname
+cat /etc/hosts
+ll
+vi /etc/hosts
+cd /opt/VRTS/install/
+ll
+./deploy_sfha 
+pwd
+ll
+cd ..
+cd .
+cd /opt/
+ll
+cd deploy_sfha/
+ll
+cd
+cd /opt/
+tar -tvf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz
+tar -tvf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz | less
+ll
+cd VRTS
+cd install/
+ll
+./deploy_sfha 
+cd
+cd /opt/VRTS
+ll
+cd install/
+ll
+cd bin/
+ll
+cd UXRT62/
+ll
+cd 
+cd /opt/
+ll
+cd VRTSperl/
+ll
+cd ..
+cd deploy_sfha/
+ll
+cd matrix/
+ll
+cd ..
+ll
+cd dvd1-redhatlinux/
+;;
+ll
+cd rhel6_x86_64/
+ll
+cd docs/
+ll
+cd cluster_server/
+ll
+cd..
+cd .
+cd -
+cd ..
+ll
+cd cluster_server/
+ll
+./uninstallvcs 
+cd
+cd /opt
+VRTS/install/
+ll
+cd VRTS
+ll
+cd install/
+ll
+cd
+cd /opt/VRTS
+ll
+cd install/
+ll
+cd ..
+ll
+cd ..
+ll
+cd dvd1-redhatlinux/
+ll
+cd rhel6_x86_64/
+ll
+cd cluster_server/
+ll
+pwd
+cd
+cd -
+./uninstallvcs 
+cd
+logwatch --print --service sudo --range all
+yum install logwatch-*
+yum install logwatch
+yum list all
+yum search logwatch
+yum list logwatch
+multitail error_log access_log
+tail -f /var/log/syslog -f /var/log/auth.log
+cat /etc/hosts
+cd /opt/
+ll
+cd VRTS
+ll
+cd install/
+ll
+./deploy_sfha
+ps -aux |grep vcs
+cd /opt/
+ll
+cd dvd1-redhatlinux/
+ll
+cd rhel6_x86_64
+ll
+cd cluster_server
+ll
+./uninstallvcs
+cd /opt/
+ll
+cd VRTS
+ll
+cd
+cd /
+ll
+cd
+cd /root/
+ll
+ip r l
+cd /opt/
+ll
+cd VRTS
+ll
+cd install/
+ll
+cd
+cd /opt/
+ll
+ll deploy_sfha
+ll deploy_sfha/matrix/\
+ll deploy_sfha/matrix/
+ll
+cd rh/
+ll
+cd ../
+ll
+cd VRTSperl/
+ll
+cd ../
+cd dvd1-redhatlinux/
+ll
+cd rhel6_x86_64
+ll
+cd ../../../
+;;
+cd
+cd /opt/
+ll
+cd VRTS
+ll
+cd install/
+ll
+cd
+cd /
+cd /root/
+ll
+tar -xvf deploy_sfha.tar
+ll
+ll deploy_sfha
+rm -fr  deploy_sfha
+ll
+tar -zxvf VRTS_SF_HA_Solutions_6.2_RHEL.tar.gz
+ll
+cd dvd1-redhatlinux/
+ll
+ll rhel6_x86_64/
+kk cluster_server
+ll cluster_server
+ll
+cd rhel6_x86_64
+ll
+ll  storage_foundation
+ll storage_foundation_for_oracle_rac 
+ll storage_foundation_cluster_file_system_ha
+ll storage_foundation_high_availability
+ll
+ll volume_manager
+ll
+cd ../
+ll
+cd ../
+ll
+rm -fr dvd1-redhatlinux
+ll
+cd /opt/
+ll
+tar -cvf VRTS.gz VRTS
+ll
+du -sh VRTS.gz 
+du -sh VRTS
+cd VRTS
+ll
+du -sh install/
+du -sh cd install/
+ll
+cd install/
+ll
+du -sh 
+du -sh deploy_sfha.tar
+du -sh deploy_sfha
+ll deploy_sfha
+ll deploy_sfha/
+du -sh *
+cd ../
+ll
+du -sh *
+ls -al
+du -sh .deploy_config 
+ll
+du -sh *
+du -sh repository/
+cd repository/
+ll
+du -sh *
+ll ga/
+ll patch/
+ll
+cd patch/
+ll
+cd targz/
+ll
+du -sh *
+tar -zxvf sfha-rhel6_x86_64-MR-6.2.1.tar.gz
+ll
+du -sh rhel6_x86_64
+ll  rhel6_x86_64
+cd ../\
+cd ../
+ll
+cd targz/
+ll
+cd ../
+ll
+cd ../
+ll
+ll ga/
+ll
+cdcd
+cd
+cd /opt/
+kk
+ll
+rm -fr  VRTS.gz
+ll
+cd deploy_sfha
+ll
+cd ../
+ll
+cd VRTS
+ll
+cd install/
+ll
+pwd
+ip r l
+cd /
+ll
+cd /opt/
+ll
+du -sh VRTSperl
+tar cvf  VRTSperl.tar VRTSperl/
+ll
+locate VRTSperl*
+ll
+cd dvd1-redhatlinux
+ll
+cd rhel6_x86_64
+ll
+cd
+lspci -vv | grep -A19 
+lspci -vv | grep -A19 "Ethernet"
+lspci -vv | grep -A19 "Ethernet controller"
+lspci -vv | grep -A19 "Ethernet controller: Intel"| grep -i "device"
+lspci -vv | grep -A19 "Ethernet controller: Intel"| grep -i number
+ lspci -v | grep -A19 "Ethernet controller: Intel"|grep -i "Device serial number"
+df -kh
+history
+history |less
+cd /root/sfha/
+cd /root/
+ll
+history |less
+cd
+cd /opt/
+ll
+ll deploy_sfha/
+ll VRTS
+ll VRTS/install/
+ll
+cd VRTS
+ll
+pwd
+cd
